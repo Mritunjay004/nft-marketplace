@@ -7,6 +7,7 @@ import images from '../assets';
 import { Button, Input } from '../components';
 
 const CreateNFT = () => {
+  // eslint-disable-next-line no-unused-vars
   const [fileUrl, setFileUrl] = useState(null);
   const [formInput, setFormInput] = useState({ name: '', price: '', description: '' });
   const { theme } = useTheme();
